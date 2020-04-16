@@ -176,12 +176,12 @@ var UIController = (function(){
       //create HTML strings with placeholder
       if(type === 'inc'){
         element = DOMStrings.incomeContainer;
-      html =  '<div class="item clearfix" id="inc-%ID%"><div class="item_description">%description%</div><div class="right clearfix"><div class="item_value">%value%</div><div class="item_delete"><button class="item_delete--btn"><i class="ion-ios-close-outline"></i>-</button></div></div></div>'
+      html =  '<div class="item clearfix" id="inc-%ID%"><div class="item_description">%description%</div><div class="right clearfix"><div class="item_value">%value%</div><div class="item_delete"><button class="item_delete--btn"><i class="ion-ios-close-outline"></i></button></div></div></div>'
 
   }else if(type === 'exp'){
 
   element = DOMStrings.expensesContainer;
-  html = '<div class="item clearfix" id="exp-%ID%"><div class="item_description">%description%</div><div class="right clearfix"><div class="item_value">%value%</div><div class="item_percentage">21%</div><div class="item_delete"><button class="item_delete--btn"><i class="ion-ios-close-outline"></i>-</button></div></div></div>'
+  html = '<div class="item clearfix" id="exp-%ID%"><div class="item_description">%description%</div><div class="right clearfix"><div class="item_value">%value%</div><div class="item_percentage">21%</div><div class="item_delete"><button class="item_delete--btn"><i class="ion-ios-close-outline"></i></button></div></div></div>'
 
   }
       //replace the placeholder text with some actual datastructure
